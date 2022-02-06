@@ -1,8 +1,12 @@
 # Foundation-Webpack
-Install and run:
+```sh
+$ npm install
+```
 
-#npm install
+```sh
+$ npm run build
+```
 
-npm run build
-
-npm run dev
+```sh
+$ npm run dev
+```
