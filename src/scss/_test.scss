@@ -1,0 +1,31 @@
+h1 {
+    color: $primary-color;
+    &:hover {
+        color: blue;
+        cursor: pointer;
+    }
+}
+.img-class {
+    border-bottom: 3px solid #000;
+}
+.icon {
+    display: inline-block;
+    font-size: 0;
+    width: 70px;
+    height: 60px;
+}
+.svg-imgs {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.bg-img {
+    background: url('../assets/images/photo1.jpeg') center center no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 200px;
+}
+.paragraph {
+    color: $primary-color;
+}
